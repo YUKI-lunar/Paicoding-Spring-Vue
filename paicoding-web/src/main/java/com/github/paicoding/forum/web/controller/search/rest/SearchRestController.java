@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 推荐服务接口
  *
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 @RequestMapping(path = "search/api")
@@ -31,8 +31,10 @@ public class SearchRestController extends BaseViewController {
      *
      * @param key
      */
+    //todo 这里只实现了文章搜索,前端还有跳转bug
     @GetMapping(path = "hint")
-    public ResVo<SearchArticleVo> recommend(@RequestParam(name = "key", required = false) String key) {List<SimpleArticleDTO> list = articleReadService.querySimpleArticleBySearchKey(key);
+    public ResVo<SearchArticleVo> searchArticle(@RequestParam(name = "key", required = false) String key) {
+        List<SimpleArticleDTO> list = articleReadService.querySimpleArticleBySearchKey(key);
         SearchArticleVo vo = new SearchArticleVo();
         vo.setKey(key);
         vo.setItems(list);

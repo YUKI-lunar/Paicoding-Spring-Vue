@@ -6,8 +6,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 
 @Retention(RetentionPolicy.RUNTIME)

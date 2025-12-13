@@ -19,8 +19,7 @@ import jakarta.servlet.http.HttpServletRequest;
 /**
  * 微信公众号登录相关
  *
- * @author XuYifei
- * @date 2024/7/10
+ * @author Vio\n* @date 2024/7/10
  */
 @RequestMapping(path = "wx")
 @RestController

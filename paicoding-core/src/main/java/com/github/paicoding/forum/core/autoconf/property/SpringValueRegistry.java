@@ -17,8 +17,9 @@ import java.util.function.BiFunction;
 /**
  * 配置变更注册
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 public class SpringValueRegistry {

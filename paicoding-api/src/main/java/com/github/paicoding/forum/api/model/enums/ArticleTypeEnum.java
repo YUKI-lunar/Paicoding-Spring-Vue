@@ -5,8 +5,7 @@ import lombok.Getter;
 /**
  * 文章类型枚举
  *
- * @author XuYifei
- * @since 2024-07-12
+ * @author Vio* @since 2024-07-12
  */
 @Getter
 public enum ArticleTypeEnum {

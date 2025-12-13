@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 当未开启rabbitMq时，提供一套默认的注入bean，避免 RabbitMqService 启动失败
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 @Configuration

@@ -3,8 +3,9 @@ package com.github.paicoding.forum.api.model.enums.ai;
 import lombok.Getter;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Getter
 public enum AISourceEnum {

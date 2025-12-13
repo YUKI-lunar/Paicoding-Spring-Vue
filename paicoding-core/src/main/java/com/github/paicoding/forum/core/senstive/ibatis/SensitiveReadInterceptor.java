@@ -31,8 +31,9 @@ import static com.google.common.collect.Lists.newArrayList;
 /**
  * 敏感词替换拦截器，这里主要是针对从db中读取的数据进行敏感词处理 （如果需要在写入db时，进行脱敏如加密，也可以使用类似的方式来实现）
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Intercepts({
         @Signature(type = ResultSetHandler.class, method = "handleResultSets", args = {java.sql.Statement.class})

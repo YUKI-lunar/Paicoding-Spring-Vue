@@ -13,8 +13,9 @@ import java.util.List;
 /**
  * 用户Service接口
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public interface UserService {
     /**

@@ -1,16 +1,17 @@
 image:
-  abs-tmp-path: D:/DESKTOP/Storage/
+  abs-tmp-path: D:/DESKTOP/Storage
   web-img-path: /image/
-  tmp-upload-path: /tmp/forum/
+  tmp-upload-path: D:/DESKTOP/Storage
   cdn-host:
   oss:
-    type: local
-    prefix:
-    endpoint:
-    ak:
-    sk:
-    bucket:
-    host:
+    type: ali
+    prefix: codingNinja/
+    endpoint: oss-cn-beijing.aliyuncs.com
+    ak: LTAI5tEYFr3dUJCQb6u21s5F
+    sk: dh4ZaVO0U4VC78WTANqI0Oy0jyebu7
+    bucket: coding-ninja-2025
+    host: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/
+
 
 spring:
   web:

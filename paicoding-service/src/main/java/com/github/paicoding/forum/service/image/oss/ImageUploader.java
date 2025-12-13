@@ -11,12 +11,17 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 public interface ImageUploader {
     String DEFAULT_FILE_TYPE = "txt";
-    Set<MediaType> STATIC_IMG_TYPE = new HashSet<>(Arrays.asList(MediaType.ImagePng, MediaType.ImageJpg, MediaType.ImageWebp, MediaType.ImageGif));
+    Set<MediaType> STATIC_IMG_TYPE =
+            new HashSet<>(Arrays.asList(
+                    MediaType.ImagePng,
+                    MediaType.ImageJpg,
+                    MediaType.ImageWebp,
+                    MediaType.ImageGif));
 
     /**
      * 文件上传
@@ -43,10 +48,6 @@ public interface ImageUploader {
      * @return
      */
     default String getFileType(ByteArrayInputStream input, String fileType) {
-        if (StringUtils.isNotBlank(fileType)) {
-            return fileType;
-        }
-
         MediaType type = MediaType.typeOfMagicNum(FileReadUtil.getMagicNum(input));
         if (STATIC_IMG_TYPE.contains(type)) {
             return type.getExt();

@@ -8,8 +8,7 @@ import java.util.Map;
 /**
  * 通用常量
  *
- * @author XuYifei
- * @date 2024/07/10
+ * @author Vio\n* @date 2024/07/10
  */
 public class CommonConstants {
 
@@ -46,31 +45,32 @@ public class CommonConstants {
     /**
      * 首页图片
      */
+    //todo 这里要改掉
     public static final String DEFUALT_IMAGE = "";
     public static final Map<String, List<String>> HOMEPAGE_TOP_PIC_MAP = new HashMap<String, List<String>>() {
         {
             put(CATEGORY_ALL, new ArrayList<String>() {
                 {
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-1.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-2.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-3.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-4.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-1.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-2.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-3.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-all-4.png");
                 }
             });
             put(CATEGORY_BACK_EMD, new ArrayList<String>() {
                 {
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-1.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-2.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-3.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-4.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-1.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-2.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-3.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-backend-4.png");
                 }
             });
             put(CATEGORY_FORNT_END, new ArrayList<String>() {
                 {
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-1.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-2.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-3.png");
-                    add("https://xuyifei-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-4.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-1.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-2.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-3.png");
+                    add("https://-oss.oss-cn-beijing.aliyuncs.com/tech-pai/images/cover/cover-top-article-category-frontend-4.png");
                 }
             });
             put(CATEGORY_ANDROID, new ArrayList<String>() {

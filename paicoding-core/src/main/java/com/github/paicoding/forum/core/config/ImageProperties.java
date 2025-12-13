@@ -8,8 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 图片配置文件
  *
- * @author XuYifei
- * @since 2024-07-12
+ * @author Vio\n* @since 2024-07-12
  */
 @Setter
 @Getter

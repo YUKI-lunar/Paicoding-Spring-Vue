@@ -6,8 +6,9 @@ import lombok.Getter;
 /**
  * ai可用次数的条件策略
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Getter
 @AllArgsConstructor

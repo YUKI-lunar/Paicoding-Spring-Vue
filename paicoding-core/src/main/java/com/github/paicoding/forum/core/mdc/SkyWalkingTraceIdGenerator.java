@@ -7,8 +7,9 @@ import java.util.UUID;
 /**
  * SkyWalking的traceId生成策略
  * <p>
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class SkyWalkingTraceIdGenerator {
     private static final String PROCESS_ID = UUID.randomUUID().toString().replaceAll("-", "");

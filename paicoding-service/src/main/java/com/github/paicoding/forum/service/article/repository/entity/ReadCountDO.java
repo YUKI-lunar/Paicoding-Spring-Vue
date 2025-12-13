@@ -9,8 +9,9 @@ import lombok.experimental.Accessors;
 /**
  * fixme 访问计数，后续改用redis替换
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @Accessors(chain = true)

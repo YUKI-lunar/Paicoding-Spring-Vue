@@ -7,8 +7,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 用户统计服务
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class UserStatisticServiceAtomicIntegerImpl implements UserStatisticService {
 

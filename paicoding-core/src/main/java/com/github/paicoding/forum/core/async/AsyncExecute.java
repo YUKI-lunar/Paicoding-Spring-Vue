@@ -10,8 +10,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * 异步执行
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

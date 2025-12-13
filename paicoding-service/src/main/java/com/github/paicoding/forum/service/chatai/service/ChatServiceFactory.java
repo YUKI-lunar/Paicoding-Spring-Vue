@@ -8,8 +8,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Component
 public class ChatServiceFactory {

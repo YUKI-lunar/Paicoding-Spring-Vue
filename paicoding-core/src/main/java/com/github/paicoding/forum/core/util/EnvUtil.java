@@ -3,8 +3,9 @@ package com.github.paicoding.forum.core.util;
 import org.springframework.util.Assert;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class EnvUtil {
     private static volatile EnvEnum env;

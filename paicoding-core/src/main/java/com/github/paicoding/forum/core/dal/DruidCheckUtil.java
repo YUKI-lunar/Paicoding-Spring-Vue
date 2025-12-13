@@ -3,8 +3,9 @@ package com.github.paicoding.forum.core.dal;
 import com.github.hui.quick.plugin.qrcode.util.ClassUtils;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class DruidCheckUtil {
 

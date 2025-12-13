@@ -16,8 +16,7 @@ import java.nio.charset.Charset;
 /**
  * 生成 sitemap.xml
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio* @date 2024-07-12
  */
 @RestController
 public class SiteMapController {

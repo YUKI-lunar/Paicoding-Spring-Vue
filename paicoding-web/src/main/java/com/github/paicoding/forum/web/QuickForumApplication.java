@@ -28,8 +28,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 入口，直接运行即可
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @EnableAsync

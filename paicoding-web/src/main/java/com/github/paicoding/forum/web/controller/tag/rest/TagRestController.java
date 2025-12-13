@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * @program: tech-pai
  * @description:
- * @author: XuYifei
+ * @author: 
  * @create: 2024-07-05
  */
 
@@ -31,7 +31,7 @@ public class TagRestController {
     }
 
     @GetMapping("/list/category")
-    public ResultVo<List<TagDTO>> listCategory(@RequestParam(value = "categoryId") Long categoryId){
+    public ResultVo<List<TagDTO>> listCategoryTag(@RequestParam(value = "categoryId") Long categoryId){
         return ResultVo.ok(tagService.listTagsCategory(categoryId));
     }
 

@@ -10,8 +10,9 @@ import com.github.paicoding.forum.service.user.repository.entity.UserFootDO;
 import java.util.Map;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public interface NotifyService {
 

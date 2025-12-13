@@ -8,8 +8,7 @@ import java.io.Serializable;
 
 
 /**
- * @author xuyifei
- */
+ * @author Vio\n*/
 @Data
 @Tag(name = "教程排序")
 public class SortColumnArticleReq implements Serializable {

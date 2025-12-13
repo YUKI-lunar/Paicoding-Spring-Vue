@@ -9,8 +9,9 @@ import java.util.Map;
 /**
  * 评论mapper接口
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public interface CommentMapper extends BaseMapper<CommentDO> {
     Map<String, Object> getHotTopCommentId(@Param("articleId") Long articleId);

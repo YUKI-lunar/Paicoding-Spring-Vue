@@ -7,8 +7,9 @@ import java.io.Serializable;
 /**
  * 邮件发送验证
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class EmailReqVo implements Serializable {

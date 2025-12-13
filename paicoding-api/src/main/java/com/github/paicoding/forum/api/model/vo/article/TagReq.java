@@ -7,8 +7,9 @@ import java.io.Serializable;
 /**
  * 保存Tag请求参数
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class TagReq implements Serializable {

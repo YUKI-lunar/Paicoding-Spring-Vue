@@ -15,8 +15,9 @@ import java.util.function.BiConsumer;
 /**
  * 技术派价值一个亿的AI
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Service
 public class PaiAiDemoServiceImpl extends AbsChatService {

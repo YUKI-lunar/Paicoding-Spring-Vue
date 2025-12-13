@@ -16,8 +16,9 @@ import java.util.Set;
 /**
  * 文章标签映mapper接口
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Repository
 public class ArticleTagDao extends ServiceImpl<ArticleTagMapper, ArticleTagDO> {

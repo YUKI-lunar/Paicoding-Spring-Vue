@@ -7,8 +7,9 @@ import java.io.Serializable;
 /**
  * 通用标签选择
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class TagSelectDTO implements Serializable {

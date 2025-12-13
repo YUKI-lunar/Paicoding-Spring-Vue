@@ -9,8 +9,9 @@ import lombok.EqualsAndHashCode;
 /**
  * 评论表
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

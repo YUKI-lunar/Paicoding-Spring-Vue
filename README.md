@@ -9,7 +9,7 @@
 
 ## 一、配套服务
  
-1. **前后端分离网址**：[http://www.xuyifei.site](http://www.xuyifei.site)
+1. **前后端分离网址**：[http://www..site](http://www..site)
 2. **技术派管理端源码**：[paicoding-admin](https://github.com/itwanger/paicoding-admin)
 3. **Vue3前端重构的前端源码**：现已合并到管理端项目中，但仍然是前后端分离模式。
 
@@ -21,7 +21,7 @@
 
 - 项目仓库（GitHub）：[https://github.com/XuYi-fei/Coder-s-platform](https://github.com/XuYi-fei/Coder-s-platform)
 - 项目仓库（码云）：[https://gitee.com/XuYi-fei/Coder-s-platform](https://gitee.com/XuYi-fei/Coder-s-platform)
-- 前后端分离版本项目演示地址：[http://www.xuyifei.site](http://www.xuyifei.site)
+- 前后端分离版本项目演示地址：[http://www..site](http://www..site)
 
 ![](https://cdn.tobebetterjavaer.com/images/20230602/d7d341c557e7470d9fb41245e5bb4209.png)
 

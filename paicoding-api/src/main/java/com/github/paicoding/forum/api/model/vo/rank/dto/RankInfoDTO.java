@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 排行榜信息
  *
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 @Data

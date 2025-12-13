@@ -6,8 +6,9 @@ import java.util.function.Function;
 /**
  * 敏感词缓存
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class SensitiveMetaCache {
     private static ConcurrentHashMap<String, SensitiveObjectMeta> CACHE = new ConcurrentHashMap<>();

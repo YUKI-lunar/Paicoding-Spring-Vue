@@ -8,8 +8,9 @@ import lombok.ToString;
 import org.springframework.context.ApplicationEvent;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Getter
 @Setter

@@ -2,8 +2,9 @@ package com.github.paicoding.forum.core.dal;
 
 /**
  * 主从数据源的枚举
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public enum MasterSlaveDsEnum implements DS {
     /**

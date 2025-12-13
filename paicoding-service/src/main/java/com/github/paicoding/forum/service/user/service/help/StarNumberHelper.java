@@ -8,8 +8,9 @@ import jakarta.annotation.Resource;
 /**
  * 密码加密器，后续接入SpringSecurity之后，可以使用 PasswordEncoder 进行替换
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Component
 public class StarNumberHelper {

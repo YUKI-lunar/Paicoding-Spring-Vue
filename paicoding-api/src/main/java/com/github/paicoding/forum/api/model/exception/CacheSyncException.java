@@ -2,8 +2,7 @@ package com.github.paicoding.forum.api.model.exception;
 
 
 /**
- * @author xuyifei
- * 进行数据同步时如果没有对应的注解则抛出此异常
+ * @author Vio\n* 进行数据同步时如果没有对应的注解则抛出此异常
  */
 public class CacheSyncException extends RuntimeException {
 

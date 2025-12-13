@@ -8,8 +8,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @WebServlet(urlPatterns = "/check")
 public class HealthServlet extends HttpServlet {

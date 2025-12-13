@@ -9,8 +9,9 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class GlobalVo {
@@ -24,7 +25,7 @@ public class GlobalVo {
     private SiteCntVo siteStatisticInfo;
 
     /**
-     * 今日的站点统计想你洗
+     * 今日的站点统计
      */
     private SiteCntVo todaySiteStatisticInfo;
 

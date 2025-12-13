@@ -1,7 +1,7 @@
 package com.github.paicoding.forum.core.permission;
 
 /**
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 public enum UserRole {

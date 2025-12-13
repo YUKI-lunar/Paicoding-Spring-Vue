@@ -9,8 +9,9 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @Tag(name="文章信息")

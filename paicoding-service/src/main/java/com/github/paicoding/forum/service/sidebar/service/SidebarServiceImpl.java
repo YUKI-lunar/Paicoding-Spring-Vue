@@ -28,8 +28,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Service
 public class SidebarServiceImpl implements SidebarService {

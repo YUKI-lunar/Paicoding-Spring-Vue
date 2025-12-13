@@ -7,8 +7,9 @@ import java.util.Objects;
 
 /**
  * ip区域信息
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class IpRegionInfo {

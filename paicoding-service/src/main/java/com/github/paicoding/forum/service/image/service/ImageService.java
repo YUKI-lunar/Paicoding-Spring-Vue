@@ -3,7 +3,7 @@ package com.github.paicoding.forum.service.image.service;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 public interface ImageService {

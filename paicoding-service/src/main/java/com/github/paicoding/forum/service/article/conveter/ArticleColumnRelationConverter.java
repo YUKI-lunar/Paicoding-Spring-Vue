@@ -10,8 +10,7 @@ import org.mapstruct.factory.Mappers;
 /**
  * 文章关联专栏转换器
  *
- * @author XuYifei
- * @date 2024/10/24
+ * @author Vio\n* @date 2024/10/24
  */
 @Mapper(componentModel = "spring")
 public interface ArticleColumnRelationConverter {

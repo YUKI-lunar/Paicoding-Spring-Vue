@@ -27,8 +27,9 @@ import java.io.InputStream;
 /**
  * 阿里云oss文件上传
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @ConditionalOnExpression(value = "#{'ali'.equals(environment.getProperty('image.oss.type'))}")
@@ -62,18 +63,24 @@ public class AliOssWrapper implements ImageUploader, InitializingBean, Disposabl
     }
 
     public String upload(byte[] bytes, String fileType) {
+        System.out.println("开始alioss图片上传");
         StopWatchUtil stopWatchUtil = StopWatchUtil.init("图片上传");
         try {
+            System.out.println();
             // 计算md5作为文件名，避免重复上传
             String fileName = stopWatchUtil.record("md5计算", () -> Md5Util.encode(bytes));
             ByteArrayInputStream input = new ByteArrayInputStream(bytes);
-            fileName = properties.getOss().getPrefix() + fileName + "." + getFileType(input, fileType);
+            String type = getFileType(input, "txt");
+            System.out.println("文件类型"+type);
+            fileName = properties.getOss().getPrefix() + fileName + "." + type;
+            System.out.println("图片名字" + fileName);
             // 创建PutObjectRequest对象。
             PutObjectRequest putObjectRequest = new PutObjectRequest(properties.getOss().getBucket(), fileName, input);
             // 设置该属性可以返回response。如果不设置，则返回的response为空。
             putObjectRequest.setProcess("true");
 
             // 上传文件
+            System.out.println("开始上传");
             PutObjectResult result = stopWatchUtil.record("文件上传", () -> ossClient.putObject(putObjectRequest));
             if (SUCCESS_CODE == result.getResponse().getStatusCode()) {
                 return properties.getOss().getHost() + fileName;

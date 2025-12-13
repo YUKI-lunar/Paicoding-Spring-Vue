@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @program: tech-pai
  * @description:
- * @author: XuYifei
+ * @author:
  * @create: 2024-07-03
  */
 

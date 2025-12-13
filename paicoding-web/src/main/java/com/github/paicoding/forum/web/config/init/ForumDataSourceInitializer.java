@@ -23,8 +23,9 @@ import java.util.Objects;
 /**
  * 表初始化，只有首次启动时，才会执行
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @Configuration

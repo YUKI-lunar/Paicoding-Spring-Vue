@@ -14,8 +14,9 @@ import java.util.Date;
 /**
  * 请求计数表
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -4,8 +4,9 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.AppenderBase;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class AlarmUtil extends AppenderBase<ILoggingEvent> {
     private static final long INTERVAL = 10 * 1000 * 60;

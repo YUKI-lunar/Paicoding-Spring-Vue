@@ -24,8 +24,9 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 用户注册服务
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Service
 public class RegisterServiceImpl implements RegisterService {

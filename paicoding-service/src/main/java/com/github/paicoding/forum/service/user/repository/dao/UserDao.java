@@ -19,8 +19,9 @@ import java.util.List;
 /**
  * UserDao
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Repository
 public class UserDao extends ServiceImpl<UserInfoMapper, UserInfoDO> {

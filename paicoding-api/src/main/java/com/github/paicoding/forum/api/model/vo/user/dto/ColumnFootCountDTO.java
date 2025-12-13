@@ -5,8 +5,9 @@ import lombok.Data;
 /**
  * 专栏统计计数
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class ColumnFootCountDTO {

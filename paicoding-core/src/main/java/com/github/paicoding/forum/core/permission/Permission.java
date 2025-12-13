@@ -3,8 +3,9 @@ package com.github.paicoding.forum.core.permission;
 import java.lang.annotation.*;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

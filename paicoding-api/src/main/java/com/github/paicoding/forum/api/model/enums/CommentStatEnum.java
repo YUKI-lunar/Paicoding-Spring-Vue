@@ -5,8 +5,7 @@ import lombok.Getter;
 /**
  * 评论状态枚举
  *
- * @author XuYifei
- * @since 2024-07-12
+ * @author Vio* @since 2024-07-12
  */
 @Getter
 public enum CommentStatEnum {

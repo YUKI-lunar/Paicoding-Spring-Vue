@@ -3,8 +3,9 @@ package com.github.paicoding.forum.core.config;
 import lombok.Data;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class OssProperties {

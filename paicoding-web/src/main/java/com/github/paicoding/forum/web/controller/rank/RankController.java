@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 排行榜
  *
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 @Controller
@@ -31,6 +31,7 @@ public class RankController {
      * @param model
      * @return
      */
+    //todo 这个是rank的啊,前端还没有实现,后端也没改
     @RequestMapping(path = "/rank/{time}")
     public String rank(@PathVariable(value = "time") String time, Model model) {
         ActivityRankTimeEnum rankTime = ActivityRankTimeEnum.nameOf(time);

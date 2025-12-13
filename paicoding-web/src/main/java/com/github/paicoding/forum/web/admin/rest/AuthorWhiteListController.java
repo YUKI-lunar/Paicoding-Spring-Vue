@@ -19,8 +19,9 @@ import java.util.List;
 /**
  * 作者白名单服务
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @RestController
 @Tag(name = "发布文章作者白名单管理控制器", description = "作者白名单")

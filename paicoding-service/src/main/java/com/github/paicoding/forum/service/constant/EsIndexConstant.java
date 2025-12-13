@@ -4,8 +4,9 @@ package com.github.paicoding.forum.service.constant;
  * ES index
  *
  * @ClassName: EsFieldConstant
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class EsIndexConstant {
 

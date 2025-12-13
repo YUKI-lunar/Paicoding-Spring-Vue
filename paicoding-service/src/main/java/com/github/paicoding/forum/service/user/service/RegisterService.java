@@ -5,8 +5,9 @@ import com.github.paicoding.forum.api.model.vo.user.UserPwdLoginReq;
 /**
  * 用户注册服务
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public interface RegisterService {
     /**

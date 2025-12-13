@@ -13,8 +13,9 @@ import java.util.List;
  * <p>
  * DTO 定义返回给web前端的实体类 (VO)
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class ArticleDTO implements Serializable {

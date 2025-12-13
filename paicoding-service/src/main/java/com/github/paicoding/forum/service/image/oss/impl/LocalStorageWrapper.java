@@ -22,8 +22,9 @@ import java.util.Random;
 /**
  * 本地保存上传文件
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @ConditionalOnExpression(value = "#{'local'.equals(environment.getProperty('image.oss.type'))}")
@@ -52,7 +53,6 @@ public class LocalStorageWrapper implements ImageUploader {
 
             String path = imageProperties.getAbsTmpPath() + imageProperties.getWebImgPath();
             String fileName = genTmpFileName();
-
             InputStream finalInput = input;
             String finalFileType = fileType;
             FileWriteUtil.FileInfo file = stopWatchUtil.record("存储", () -> FileWriteUtil.saveFileByStream(finalInput, path, fileName, finalFileType));

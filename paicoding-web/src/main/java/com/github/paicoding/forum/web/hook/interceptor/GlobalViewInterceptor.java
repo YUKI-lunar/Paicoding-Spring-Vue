@@ -27,8 +27,9 @@ import org.springframework.web.servlet.AsyncHandlerInterceptor;
  * 注入全局的配置信息：
  * 站点信息，基本信息，在这里注入
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @Component

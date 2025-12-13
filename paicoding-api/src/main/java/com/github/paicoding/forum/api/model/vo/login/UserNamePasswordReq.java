@@ -6,8 +6,7 @@ import lombok.Data;
 /**
  * 保存用户名+密码登录的请求
  *
- * @author XuYifei
- * @create 2024-06-21
+ * @author Vio\n* @create 2024-06-21
  */
 
 @Data

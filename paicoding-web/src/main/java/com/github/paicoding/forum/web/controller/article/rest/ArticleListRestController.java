@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 文章列表
  *
- * @author XuYifei
- */
+ * @author Vio\n*/
 @RequestMapping(path = "article/api/list")
 @RestController
 public class ArticleListRestController extends BaseViewController {

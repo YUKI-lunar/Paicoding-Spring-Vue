@@ -5,8 +5,7 @@ import lombok.Getter;
 /**
  * 操作类型
  *
- * @author XuYifei
- * @since 2024-07-12
+ * @author Vio\n* @since 2024-07-12
  */
 @Getter
 public enum OperateTypeEnum {

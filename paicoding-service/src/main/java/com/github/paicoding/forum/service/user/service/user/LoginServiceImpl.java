@@ -25,8 +25,9 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 基于验证码、用户名密码的登录方式
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Service
 @Slf4j

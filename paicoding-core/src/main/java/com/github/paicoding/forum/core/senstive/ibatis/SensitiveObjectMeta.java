@@ -14,8 +14,9 @@ import static java.util.Objects.nonNull;
 /**
  * 敏感词相关配置，db配置表中的配置优先级更高，支持动态刷新
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 public class SensitiveObjectMeta {

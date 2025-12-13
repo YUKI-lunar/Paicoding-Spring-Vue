@@ -18,8 +18,9 @@ import java.util.Map;
 /**
  * 基础的websocket实现通讯的方式
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 public class SimpleChatgptHandler extends TextWebSocketHandler {

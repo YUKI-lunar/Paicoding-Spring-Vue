@@ -18,8 +18,9 @@ import jakarta.servlet.http.HttpServletRequest;
 /**
  * 图片服务，要求登录之后才允许操作
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Permission(role = UserRole.LOGIN)
 @RequestMapping(path = {"image/", "admin/image/", "api/admin/image/",})

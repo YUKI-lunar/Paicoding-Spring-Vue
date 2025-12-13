@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @NoArgsConstructor

@@ -3,8 +3,9 @@ package com.github.paicoding.forum.service.notify.service;
 import com.github.paicoding.forum.api.model.event.MessageQueueEvent;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public interface RabbitmqService {
 

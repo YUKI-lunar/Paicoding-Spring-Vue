@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * 消息通知
  *
- * @author XuYifei
+ * @author 
  * @date : 2024-07-12
  **/
 @Permission(role = UserRole.LOGIN)

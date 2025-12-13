@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 /**
  * @program: tech-pai
  * @description:
- * @author: XuYifei
+ * @author: 
  * @create: 2024-06-26
  */
 
@@ -24,6 +24,7 @@ public class GlobalInfoResponseAspect {
     private GlobalInitService globalInitService;
 
     @Pointcut("execution(public com.github.paicoding.forum.web.global.vo.ResultVo com.github.paicoding.forum.web..*.*(..))")
+    //这里的定义,这又web里返回ResultVo的函数才会被拦截
     public void controllerMethods() {}
 
     @Around("controllerMethods()")

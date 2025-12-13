@@ -10,8 +10,9 @@ import lombok.EqualsAndHashCode;
  *
  * DO 对应数据库实体类
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

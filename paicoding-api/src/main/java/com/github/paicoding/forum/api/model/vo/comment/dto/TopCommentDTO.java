@@ -9,8 +9,7 @@ import java.util.List;
 /**
  * 评论树状结构
  *
- * @author XuYifei
- * @since 2024-07-12
+ * @author Vio\n* @since 2024-07-12
  */
 @Data
 public class TopCommentDTO extends BaseCommentDTO {

@@ -33,8 +33,9 @@ import java.util.concurrent.TimeUnit;
  * 1. 请求参数日志输出过滤器
  * 2. 判断用户是否登录
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Slf4j
 @WebFilter(urlPatterns = "/*", filterName = "reqRecordFilter", asyncSupported = true)

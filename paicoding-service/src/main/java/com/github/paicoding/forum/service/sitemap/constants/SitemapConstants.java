@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * 站点相关地图
- * @author XuYifei
+ * @author 
  * @date 2024-07-12
  */
 public class SitemapConstants {

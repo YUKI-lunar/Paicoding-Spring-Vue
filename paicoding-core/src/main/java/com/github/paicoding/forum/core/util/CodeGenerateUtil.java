@@ -5,8 +5,9 @@ import org.apache.commons.lang3.math.NumberUtils;
 import java.util.*;
 
 /**
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 public class CodeGenerateUtil {
     public static final Integer CODE_LEN = 3;

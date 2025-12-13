@@ -41,8 +41,9 @@ import java.util.stream.Collectors;
  * <p>
  * 多表结构的操作封装，只与DB操作相关
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Repository
 public class ArticleDao extends ServiceImpl<ArticleMapper, ArticleDO> {

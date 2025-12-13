@@ -8,7 +8,8 @@
  * 4. todo: 权限判断（个人页，需要登录...）
  *
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 package com.github.paicoding.forum.web.controller;

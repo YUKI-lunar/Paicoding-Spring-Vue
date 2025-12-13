@@ -19,8 +19,9 @@ import lombok.Getter;
  * <p>
  * code: 具体的业务code
  *
- * @author XuYifei
- * @date 2024-07-12
+ * @author Vio
+ *
+ * @date 2025-11-10
  */
 @Getter
 public enum StatusEnum {

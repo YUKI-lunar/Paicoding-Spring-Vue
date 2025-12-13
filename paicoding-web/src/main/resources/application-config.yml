@@ -3,8 +3,8 @@ view:
     needLoginArticleReadCount: 30
     zsxqArticleReadCount: 20
     websiteName: 技术派
-    websiteLogoUrl: https://paicoding.com/img/icon.png
-    websiteFaviconIconUrl: https://paicoding.com/img/icon.png
+    websiteLogoUrl:
+    websiteFaviconIconUrl:
     zsxqUrl: ''
     zsxqPosterUrl: ''
     contactMeTitle: 欢迎关注微信公众号
@@ -15,7 +15,7 @@ view:
 
     pageSize: 20
     cdnImgStyle:
-    websiteRecord: 备案号:暂无
+    websiteRecord: 备案号:还在搞哈哈哈哈哈
     wxLoginUrl: http://weixin.qq.com/r/WxwpMefE-rqBraNS90lJ
     host: http://127.0.0.1:${server.port}
     welcomeInfo: 欢迎来到技术派 ~~
