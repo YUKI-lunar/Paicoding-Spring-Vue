@@ -5,12 +5,12 @@ image:
   cdn-host:
   oss:
     type: ali
-    prefix: codingNinja/
-    endpoint: oss-cn-beijing.aliyuncs.com
-    ak: LTAI5tEYFr3dUJCQb6u21s5F
-    sk: dh4ZaVO0U4VC78WTANqI0Oy0jyebu7
-    bucket: coding-ninja-2025
-    host: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/
+    prefix: 
+    endpoint: 
+    ak: 
+    sk: 
+    bucket: 
+    host: 
 
 
 spring:
