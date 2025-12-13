@@ -9,36 +9,19 @@
 
 ## 一、配套服务
  
-1. **前后端分离网址**：[http://www..site](http://www..site)
-2. **技术派管理端源码**：[paicoding-admin](https://github.com/itwanger/paicoding-admin)
-3. **Vue3前端重构的前端源码**：现已合并到管理端项目中，但仍然是前后端分离模式。
+1. **用户前端**
+2. **管理端**：[paicoding-admin](https://github.com/itwanger/paicoding-admin)
 
 ## 二、项目介绍
 
 ### 项目演示
 
-#### 前台社区系统
-
-- 项目仓库（GitHub）：[https://github.com/XuYi-fei/Coder-s-platform](https://github.com/XuYi-fei/Coder-s-platform)
-- 项目仓库（码云）：[https://gitee.com/XuYi-fei/Coder-s-platform](https://gitee.com/XuYi-fei/Coder-s-platform)
-- 前后端分离版本项目演示地址：[http://www..site](http://www..site)
-
-![](https://cdn.tobebetterjavaer.com/images/20230602/d7d341c557e7470d9fb41245e5bb4209.png)
-
-#### 后台社区系统
-
-- 项目仓库（GitHub）：[https://github.com/itwanger/paicoding-admin](https://github.com/itwanger/paicoding-admin)
-- 项目仓库（码云）：[https://gitee.com/itwanger/paicoding-admin](https://gitee.com/itwanger/paicoding-admin)
-- 项目演示地址：[https://paicoding.com/admin-view](https://paicoding.com/admin/)
-
-![](https://cdn.tobebetterjavaer.com/images/20230602/83139e13a4784c0fbf0adedd8e287c5b.png)
-
+-服务上线地址
 
 ### 组织结构
 
 ```
 paicoding
-├── paicoding-front -- Vue3实现的前端模块
 ├── paicoding-api -- 定义一些通用的枚举、实体类，定义 DO\DTO\VO 等
 ├── paicoding-core -- 核心工具/组件相关模块，如工具包 util， 通用的组件都放在这个模块（以包路径对模块功能进行拆分，如搜索、缓存、推荐等）
 ├── paicoding-service -- 服务模块，业务相关的主要逻辑，DB 的操作都在这里
@@ -74,10 +57,6 @@ mvn clean install -DskipTests=true -Pprod
   - xxx/application-dal.yml: 定义数据库相关的配置信息
   - xxx/application-image.yml: 定义上传图片的相关配置信息
   - xxx/application-web.yml: 定义web相关的配置信息
-
-#### 前端工程结构说明
-
-见[前端Vue版本](https://github.com/XuYi-fei/Coder-s-Corner)
 
 ### 技术选型
 
@@ -152,14 +131,7 @@ mvn clean install -DskipTests=true -Pprod
 
 ### 搭建步骤
 
-#### 本地部署教程
 
-> [本地开发环境手把手教程](docs/本地开发环境配置教程.md)
-
-### 云服务器部署教程
-
-> [环境搭建 & 基于源码的部署教程](docs/安装环境.md)
-> [服务器启动教程](docs/服务器启动教程.md)
 
 
 
