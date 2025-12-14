@@ -2,7 +2,7 @@ view:
   site:
     needLoginArticleReadCount: 30
     zsxqArticleReadCount: 20
-    websiteName: 技术派
+    websiteName: CodingNinja
     websiteLogoUrl:
     websiteFaviconIconUrl:
     zsxqUrl: ''
@@ -10,13 +10,13 @@ view:
     contactMeTitle: 欢迎关注微信公众号
 
     # 改成本地图片
-    contactMeWxQrCode: D:\DESKTOP\Storage\image\wx_qrcode.jpg
-    contactMeStarQrCode: http://127.0.0.1:8080/image/qrcode_star.jpg
+    contactMeWxQrCode:
+    contactMeStarQrCode:
 
     pageSize: 20
     cdnImgStyle:
     websiteRecord: 备案号:还在搞哈哈哈哈哈
     wxLoginUrl: http://weixin.qq.com/r/WxwpMefE-rqBraNS90lJ
-    host: http://127.0.0.1:${server.port}
-    welcomeInfo: 欢迎来到技术派 ~~
+    host: http://codingninja555.xyz
+    welcomeInfo: Welcome!!!
     oss:

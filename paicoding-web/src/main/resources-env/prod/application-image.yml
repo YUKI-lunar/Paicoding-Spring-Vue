@@ -1,17 +1,23 @@
 image:
-  # 服务器保存图片的绝对地址
-  abs-tmp-path: /home/ubuntu/storage/
-  # 图片前缀
-  web-img-path: forum/img/
-  # 临时存储目录
-  tmp-upload-path: /tmp/forum/
-  # 图片访问域名
+  abs-tmp-path: D:/DESKTOP/Storage
+  web-img-path: /image/
+  tmp-upload-path: D:/DESKTOP/Storage
   cdn-host:
   oss:
-    type: local
-    prefix:
-    endpoint:
-    ak:
-    sk:
-    bucket:
-    host:
+    type: ali
+    prefix: codingNinja/
+    endpoint: oss-cn-beijing.aliyuncs.com
+    ak: LTAI5tEYFr3dUJCQb6u21s5F
+    sk: dh4ZaVO0U4VC78WTANqI0Oy0jyebu7
+    bucket: coding-ninja-2025
+    host: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/
+
+
+spring:
+  web:
+    resources:
+      # 支持本地图片上传之后的链接，其中 file:///d的用于win系统，后面的file: 适用于mac/linux系统
+      static-locations:
+        - classpath:/static/
+        - file:///d:${image.abs-tmp-path}
+        - file:${image.abs-tmp-path}

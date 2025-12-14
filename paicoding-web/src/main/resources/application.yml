@@ -1,6 +1,6 @@
 
 server:
-  port: 8089
+  port: 8080
   servlet:
     session:
       timeout: 5m # 设置session的有效期为五分钟
@@ -11,9 +11,6 @@ server:
 spring:
   profiles:
     active: dev
-  #  profiles:
-  #    active: dal,web,config,image
-  # 替换上面作废的spring.profiels.actice配置参数
   config:
     import: application-dal.yml,application-web.yml,application-config.yml,application-image.yml,application-email.yml,application-rabbitmq.yml,application-ai.yml
 
@@ -86,13 +83,13 @@ knife4j:
   setting:
     language: zh-CN
   openapi:
-    title: 技术派
+    title: CodingNinja
     description: 一个基于 Spring Boot3、MyBatis-Plus、MySQL、Redis、ElasticSearch、RabbitMQ、Vue.js 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目👍 。
     version: 1.0.0
     concat:
       - HX
     license: Apache License 2.0
-    email: 1499624008@qq.com
+    email: 3273441974@qq.com
     group:
       admin:
         group-name: 后台接口分组
