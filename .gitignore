@@ -38,3 +38,6 @@ pid.log
 *.jar
 *.jar.bak
 *.jar.tmp
+
+#secret
+paicoding-web/src/main/resources-env/prod
