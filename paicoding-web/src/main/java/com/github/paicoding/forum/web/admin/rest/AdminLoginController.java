@@ -33,7 +33,6 @@ import java.util.Optional;
 @RestController
 @Tag(name = "后台登录登出管理控制器", description = "后台登录")
 @RequestMapping(path = {"/api/admin", "/admin"})
-@CrossOrigin(origins = "http://127.0.0.1:3301", allowCredentials = "true")
 public class AdminLoginController {
 
     @Autowired

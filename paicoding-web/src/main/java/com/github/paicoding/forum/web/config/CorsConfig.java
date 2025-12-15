@@ -1,28 +1,19 @@
 package com.github.paicoding.forum.web.config;
 
 import org.springframework.context.annotation.Configuration;
-
-/**
- * @program: tech-pai
- * @description:
- * @author:
- * @create: 2024-07-10
- */
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class CorsConfig {
+public class CorsConfig implements WebMvcConfigurer {
 
-//    @Bean
-//    public CorsFilter corsFilter() {
-//        CorsConfiguration config = new CorsConfiguration();
-//        config.setAllowCredentials(true);
-//        config.addAllowedOriginPattern("*"); // 允许所有来源，但会根据请求的 Origin 动态设置
-//        config.addAllowedHeader("*");
-//        config.addAllowedMethod("*");
-//        config.setExposedHeaders(List.of("Set-Cookie"));
-//
-//        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-//        source.registerCorsConfiguration("/**", config);
-//        return new CorsFilter(source);
-//    }
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/admin/**")            // 只对 /admin 下的接口生效
+                .allowedOriginPatterns("*")        // 允许所有来源访问
+                .allowedMethods("*")               // 允许 GET, POST, PUT, DELETE 等
+                .allowedHeaders("*")               // 允许所有请求头
+                .allowCredentials(true)            // 允许携带 Cookie 或认证信息
+                .maxAge(3600);                     // 预检请求缓存时间，单位秒
+    }
 }
