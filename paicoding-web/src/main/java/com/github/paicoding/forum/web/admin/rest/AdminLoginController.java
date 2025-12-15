@@ -16,6 +16,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,6 +33,7 @@ import java.util.Optional;
 @RestController
 @Tag(name = "后台登录登出管理控制器", description = "后台登录")
 @RequestMapping(path = {"/api/admin", "/admin"})
+@CrossOrigin(origins = "http://127.0.0.1:3301", allowCredentials = "true")
 public class AdminLoginController {
 
     @Autowired
