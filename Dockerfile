@@ -1,11 +1,17 @@
-# 使用官方 JDK 17 镜像作为基础
+# 使用 OpenJDK 作为基础镜像
 FROM eclipse-temurin:17-jre
 
-# 工作目录
+# 设置工作目录
 WORKDIR /app
 
-# 将构建好的 jar 复制到容器
-COPY paicoding-web/target/paicoding-web-0.0.1-SNAPSHOT.jar /app/paicoding-web.jar
+# 复制 JAR 文件到容器中
+COPY paicoding-web/target/paicoding-web-0.0.1-SNAPSHOT.jar  /app/app.jar
 
-# 容器启动时执行 jar
-ENTRYPOINT ["java","-jar","app.jar"]
+# 暴露 Spring Boot 端口
+EXPOSE 8080
+
+# 设置 JVM 参数（可选）
+ENV JAVA_OPTS="-Xmx512m -Xms256m"
+
+# 运行 Spring Boot 应用
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
