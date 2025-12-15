@@ -40,4 +40,5 @@ pid.log
 *.jar.tmp
 
 #secret
-paicoding-web/src/main/resources-env/prod
+paicoding-web/src/main/resources-env/prod/
+paicoding-web/src/main/resources-env/dev/application-image.yml
