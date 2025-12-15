@@ -10,7 +10,7 @@ server:
 
 spring:
   profiles:
-    active: dev
+    active: prod
   config:
     import: application-dal.yml,application-web.yml,application-config.yml,application-image.yml,application-email.yml,application-rabbitmq.yml,application-ai.yml
 
@@ -23,7 +23,7 @@ spring:
       request-timeout:
   liquibase:
     change-log: classpath:liquibase/master.xml
-    enabled: false # 当实际使用的数据库不支持liquibase，如 mariadb 时，将这个参数设置为false
+    enabled: true # 当实际使用的数据库不支持liquibase，如 mariadb 时，将这个参数设置为false
     clear-checksums: true # 每次启动时清除数据库中的checksums，用于开发环境
   servlet:
     multipart:
@@ -41,7 +41,7 @@ security:
 
 paicoding:
   sensitive: # 敏感词校验相关配置
-    enable: true
+    enable: false
     deny: # 自定义的敏感词，英文逗号分割
     allow: # 自定义的非敏感词，英文逗号分割
   jwt:
@@ -56,9 +56,11 @@ database:
 # mybatis 相关统一配置
 mybatis-plus:
   configuration:
-    #开启下划线转驼峰
     map-underscore-to-camel-case: true
-  type-aliases-package: classpath:mapper/*.xml
+
+  type-aliases-package: com.github.paicoding.forum.service
+  mapper-locations: classpath*:mapper/**/*.xml
+
 
 # springdoc-openapi 配置
 springdoc:
