@@ -1,7 +1,7 @@
 log:
   path: /var/log/my-app
 env:
-  name: dev
+  name: prod
 
 
 spring:
