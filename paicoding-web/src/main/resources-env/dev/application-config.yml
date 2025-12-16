@@ -1,0 +1,21 @@
+view:
+  site:
+    websiteName: CodingNinja
+    websiteLogoUrl: https://paicoding.com/img/logo.svg
+    websiteFaviconIconUrl: https://paicoding.com/img/icon.png
+    contactMeTitle:
+    contactMeWxQrCode: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/codingNinja/wx_qrcode.jpg
+    pageSize: 20
+    needLoginArticleReadCount: 30 # 需要登录才能阅读的文章阅读次数
+    cdnImgStyle:
+    websiteRecord: 备案号
+    wxLoginUrl: http://weixin.qq.com/r/WxwpMefE-rqBraNS90lJ
+    host: https://codingninja555.xyz
+    welcomeInfo: Welcome!!!
+    zsxqUrl: ''
+    zsxqPosterUrl: ''
+    contactMeStarQrCode: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/codingNinja/wx_qrcode.jpg
+    oss: https://coding-ninja-2025.oss-cn-beijing.aliyuncs.com/codingNinja
+
+knife4j:
+  production: true # 开启屏蔽文档资源
