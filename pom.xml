@@ -197,9 +197,9 @@
             <properties>
                 <env>dev</env>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
         </profile>
         <!-- 测试 -->
         <profile>
