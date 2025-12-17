@@ -9,11 +9,13 @@ public class CorsConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**")                // 匹配所有接口
+        registry.addMapping("/**")
                 .allowedOriginPatterns(
-                        "http://localhost:5173",  // 本地开发前端
-                        "http://127.0.0.1:5173",  // 本地开发前端
-                        "http://203.10.98.186"   // 你的公网 IP
+                        "http://localhost",
+                        "http://127.0.0.1",
+                        "https://101.200.167.69",
+                        "https://101.200.167.69",
+                        "http://203.10.98.186"
                 )
                 .allowedMethods("*")            // 允许 GET, POST, PUT, DELETE 等
                 .allowedHeaders("*")            // 允许所有请求头
